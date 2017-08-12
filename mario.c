@@ -13,15 +13,26 @@ int main(void)
 {
     printf("Height:");
     int n = get_int();
-    if (n < 0 || n == 0)
+    if (n == 0)
     {
         return 0;
     }
+    else if (n < 0)
+    {
+        while (n < 0 || n > 23)
+        {
+            printf("Height:");
+            n = get_int();
+        }
+        
+         pyramid(n);
+    }
+    
     else if (n > 0)
     {
-        while (n > 23)
+        while (n < 0 || n > 23)
         {
-            printf("Retry:");
+            printf("Height:");
             n = get_int();
         }
         

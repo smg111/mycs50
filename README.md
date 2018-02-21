@@ -6,3 +6,4 @@
 - [`mario.c`](./c/mario.c) prints out a double half-pyramid of a specified height.
 - [`initials.c`](./c/initials.c) given a person’s name, prints a person’s initials.
  
+Old (redundant) branches still available to keep time stamps until transferred to comments of files.
